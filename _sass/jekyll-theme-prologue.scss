@@ -465,6 +465,15 @@
 			h3 {
 				font-size: 1em;
 			}
+			span {
+				background-color: #eee;
+				font-size: 12px;
+				margin: 0 5px;
+				padding: 2px 5px;
+				&:before {
+					content:'#';
+				}
+			}
 		}
 	}
 
