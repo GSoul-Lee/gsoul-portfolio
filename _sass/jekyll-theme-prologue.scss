@@ -467,9 +467,14 @@
 			}
 			span {
 				background-color: #eee;
-				font-size: 12px;
-				margin: 0 5px;
-				padding: 2px 5px;
+				font-size: 14px;
+				margin: 0 2px;
+				padding: 2px 10px;
+				border-radius: 999px;
+				-webkit-border-radius: 999px;
+				-moz-border-radius: 999px;
+				-msborder-radius: 999px;
+				color: #000;
 				&:before {
 					content:'#';
 				}
