@@ -4,17 +4,17 @@ icon: fa-envelope
 order: 4
 ---
 
-<p>궁금한점이 있다면 언제든 문의 남겨주세요. #문의환영 #테러사절 #해킹사절 </p>
+<p>궁금한점이 있다면 언제든 문의 남겨주세요.<br /><small>#문의환영</small><small>#테러사절</small><small>#해킹사절</small></p>
 
 <form method="post" action="https://formspree.io/{{ site.email }}">
   <div class="row">
-    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="6u 12u$(mobile)"><input type="text" name="title" placeholder="문의제목을 입력해주세요." /></div>
+    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="회신받으실 이메일을 입력해주세요." /></div>
     <div class="12u$">
-      <textarea name="message" placeholder="Message"></textarea>
+      <textarea name="message" placeholder="문의내용을 입력해주세요."></textarea>
     </div>
     <div class="12u$">
-      <input type="submit" value="Send Message" />
+      <input type="submit" value="문의하기" />
     </div>
   </div>
 </form>
