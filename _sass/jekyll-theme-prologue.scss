@@ -73,7 +73,7 @@ h4,
 h5,
 h6 {
 	font-weight: 600;
-	color: #666;
+	color: #313131;
 	line-height: 1.5em;
 }
 
@@ -92,8 +92,9 @@ h6 a {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 3em;
 	letter-spacing: -1px;
+	@include fontTit;
 }
 
 h3 {
