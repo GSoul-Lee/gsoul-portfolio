@@ -2,7 +2,7 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600?family=Jua&family=Stylish&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;400&family=Stylish&display=swap');
 
 
 /*
@@ -44,7 +44,7 @@
 
 body {
 	background: #fff;
-	font-family: 'Stylish', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
@@ -59,7 +59,7 @@ body {
 input,
 textarea,
 select {
-	font-family: 'Stylish', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
@@ -706,6 +706,7 @@ button,
 			h5,
 			h6 {
 				color: inherit;
+				@include fontTit;
 			}
 
 			strong {
