@@ -474,9 +474,10 @@ button,
 		}
 
 		span {
+			display: inline-block;
 			background-color: #eee;
 			font-size: 14px;
-			margin: 0 2px;
+			margin: 2px;
 			padding: 2px 10px;
 			border-radius: 999px;
 			-webkit-border-radius: 999px;
